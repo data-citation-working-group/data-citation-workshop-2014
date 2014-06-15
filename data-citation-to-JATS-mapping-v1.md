@@ -5,41 +5,41 @@ A basic assumption is that all these elements will be placed inside the `<mixed-
 As a reminder, here is a full example of a JATS-tagged citation for a journal article (XML courtesy of Jo McEntyre, as are most of the rest of the examples).
 
 
-`<ref id="B45">
-<mixed-citation publication-type="journal">
-<name><surname>Kozak</surname>
-<given-names>NA</given-names>
-</name>
-<name><surname>Benson</surname>
-<given-names>RF</given-names>
-</name>
-<name><surname>Brown</surname>
-<given-names>E</given-names>
-</name>
-<name><surname>Alexander</surname>
-<given-names>NT</given-names>
-</name>
-<name><surname>Taylor</surname>
-<given-names>TH</given-names>
-</name>
-<name>
-<surname>Shelton</surname>
-<given-names>BG</given-names>
-</name>
-<name>
-<surname>Fields</surname>
-<given-names>BS</given-names>
-</name>
-<article-title>Distribution of lag-1 alleles and sequence-based types among Legionella pneumophila serogroup 1 clinical and environmental isolates in the United States</article-title>
-<source>J Clin Microbiol</source>
-<year>2009</year>
-<volume>13</volume>
-<fpage>2525</fpage>
-<lpage>2535</lpage>
-<pub-id pub-id-type="doi">10.1128/JCM.02410-08</pub-id>
-<pub-id pub-id-type="pmid">19553574</pub-id>
-</mixed-citation>
-</ref>`
+	<ref id="B45">
+	<mixed-citation publication-type="journal">
+	<name><surname>Kozak</surname>
+	<given-names>NA</given-names>
+	</name>
+	<name><surname>Benson</surname>
+	<given-names>RF</given-names>
+	</name>
+	<name><surname>Brown</surname>
+	<given-names>E</given-names>
+	</name>
+	<name><surname>Alexander</surname>
+	<given-names>NT</given-names>
+	</name>
+	<name><surname>Taylor</surname>
+	<given-names>TH</given-names>
+	</name>
+	<name>
+	<surname>Shelton</surname>
+	<given-names>BG</given-names>
+	</name>
+	<name>
+	<surname>Fields</surname>
+	<given-names>BS</given-names>
+	</name>
+	<article-title>Distribution of lag-1 alleles and sequence-based types among Legionella pneumophila serogroup 1 clinical and environmental isolates in the United States</article-title>
+	<source>J Clin Microbiol</source>
+	<year>2009</year>
+	<volume>13</volume>
+	<fpage>2525</fpage>
+	<lpage>2535</lpage>
+	<pub-id pub-id-type="doi">10.1128/JCM.02410-08</pub-id>
+	<pub-id pub-id-type="pmid">19553574</pub-id>
+	</mixed-citation>
+	</ref>
 
 ## Fields to JATS Elements Mapping
 In the following pages:
