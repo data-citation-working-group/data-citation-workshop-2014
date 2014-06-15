@@ -46,7 +46,7 @@ As a reminder, here is a full example of a JATS-tagged citation for a journal ar
 
 In the following pages: 
 - A numbered heading will list the field name (as found in several sources)  
-- The paragraph below it will give an approximate definition. (Non-italicized definitions are from ESIP Data Citation Guidelines (Ruth Duerr 20120). Properties and sub-properties are from the [DataCite Schema 2013](http://schema.datacite.org/meta/kernel-3/index.html))  
+- The paragraph below it will give an approximate definition. (Non-italicized definitions are from [ESIP Data Citation Guidelines](http://commons.esipfed.org/node/308) (Ruth Duerr 20120). Properties and sub-properties are from the [DataCite Schema 2013](http://schema.datacite.org/meta/kernel-3/index.html))  
 - The bulleted list following will show JATS alternatives, named and tagged.   
 - Comments MAY be given at the end.  
 
@@ -119,8 +119,8 @@ Possibly a URL, but ideally a persistent ( DOI, PURL, Handle, or ARK) HTTP form 
 	<pub-id pub-id-type="doi">10.1128/JCM.02410-08</pub-id>
 	<pub-id pub-id-type="doi">10.1099/ijs.0.039248-0</pub-id>
 
-Note: At the moment, <pub-id> does not take any linking attributes. We might need to add these to JATS:
-	<pub-id="doi" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">10.6070/H4WM1BBQ</doi>
+Note: At the moment, <pub-id> does not take any linking attributes. We might need to add these to JATS:  
+	`<pub-id="doi" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">10.6070/H4WM1BBQ</pub-id>`
 
 #### `<ext-link>` with `@ext-link-type`  
 	<ext-link-type="uri" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">
