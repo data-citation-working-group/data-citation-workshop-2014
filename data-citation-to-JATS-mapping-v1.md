@@ -46,7 +46,7 @@ As a reminder, here is a full example of a JATS-tagged citation for a journal ar
 
 In the following pages: 
 - A numbered heading will list the field name (as found in several sources)  
-- The paragraph below it will give an approximate definition. (Non-italicized definitions are from ESIP Data Citation Guidelines (Ruth Duerr 20120). Properties and sub-properties are from the [DataCite Schema 2013](http://schema.datacite.org/meta/kernel-3/index.html))  
+- The paragraph below it will give an approximate definition. (Non-italicized definitions are from [ESIP Data Citation Guidelines](http://commons.esipfed.org/node/308) (Ruth Duerr 20120). Properties and sub-properties are from the [DataCite Schema 2013](http://schema.datacite.org/meta/kernel-3/index.html))  
 - The bulleted list following will show JATS alternatives, named and tagged.   
 - Comments MAY be given at the end.  
 
