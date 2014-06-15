@@ -30,7 +30,8 @@ As a reminder, here is a full example of a JATS-tagged citation for a journal ar
 	<surname>Fields</surname>
 	<given-names>BS</given-names>
 	</name>
-	<article-title>Distribution of lag-1 alleles and sequence-based types among Legionella pneumophila serogroup 1 clinical and environmental isolates in the United States</article-title>
+	<article-title>Distribution of lag-1 alleles and sequence-based types among Legionella
+	pneumophila serogroup 1 clinical and environmental isolates in the United States</article-title>
 	<source>J Clin Microbiol</source>
 	<year>2009</year>
 	<volume>13</volume>
