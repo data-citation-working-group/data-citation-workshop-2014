@@ -120,7 +120,7 @@ Possibly a URL, but ideally a persistent ( DOI, PURL, Handle, or ARK) HTTP form 
 	<pub-id pub-id-type="doi">10.1099/ijs.0.039248-0</pub-id>
 
 Note: At the moment, <pub-id> does not take any linking attributes. We might need to add these to JATS:
-	<pub-id="doi" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">10.6070/H4WM1BBQ</pub-id>
+	<pub-id="doi" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">10.6070/H4WM1BBQ</doi>
 
 #### `<ext-link>` with `@ext-link-type`  
 	<ext-link-type="uri" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">
