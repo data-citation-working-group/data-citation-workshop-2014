@@ -52,6 +52,8 @@ In the following pages:
 - The bulleted list following will show JATS alternatives, named and tagged.   
 - Comments MAY be given at the end.  
 
+----
+
 ### Author/Rightsholder/ Creator/Primary Responsibility
 Data creators. People or organizations responsible for developing (intellectual work) the dataset (_type subproperty_) _Primary Responsibility_
 
@@ -77,6 +79,8 @@ Data creators. People or organizations responsible for developing (intellectual 
 	Harvard University</institution>
 	</institution-wrap>
 
+----
+
 ### Publication/Release Date /Year  
 When this version of the dataset was made available for citation. May be only a year
 
@@ -88,11 +92,15 @@ When this version of the dataset was made available for citation. May be only a 
 #### year  
 	<year iso-8601-date=”2014-07”>2013</year>
 
+----
+
 ### Title/Name of the Dataset
 Formal title  of the dataset (may include applicable dates) (optional type subproperty). Some sources place this inside the name.
 
 #### source
 	<source>Monitoring the Future: A Continuing Study of American Youth (12th Grade Survey)</source>  
+
+----
 
 ### Version/Edition
 The precise version number of the data used.
@@ -102,6 +110,8 @@ The precise version number of the data used.
 
 #### version - If edition and version are considered to be different, a new element would need to be added to JATS:
 	<version>16.2.1</version>
+
+----
 
 ### Resource Type  
 Material designator; medium; (general type description subpropery).  
@@ -113,6 +123,8 @@ If this information should be recorded as an element, a new element would need t
 - `<data-format>dataset</data-format>`
 - `<data-format>spreadsheet</data-format>`
 - `<data-format>data</data-format>`
+
+----
 
 ### Persistent Global Identifier/ Locator (DOI/URL)  
 Possibly a URL, but ideally a persistent ( DOI, PURL, Handle, or ARK) HTTP form of the DOI is preferred by some sources.
@@ -131,6 +143,8 @@ Note: At the moment, <pub-id> does not take any linking attributes. We might nee
 #### `<uri>`  
 	<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>
 
+----
+
 ### Publisher/Distributor/ Repository/ Data Center /Archive
 
 The organization distributing and curating the data (ideally over the long term) such as a Data Center or Archive
@@ -138,10 +152,14 @@ The organization distributing and curating the data (ideally over the long term)
 #### <publisher-name>
 	<publisher-name>Public Library of Science</publisher-name>
 
+----
+
 ### Location of publisher/distributor  
 Such as city, state, country
 #### `<publisher-loc>`
 	<publisher-loc>San Francisco, USA</publisher-loc>
+
+----
 
 ### Access Date(s) and Time 
 Exactly when the online data was accessed.
@@ -149,6 +167,8 @@ Exactly when the online data was accessed.
 #### `<date-in-citation>`
 	<date-in-citation iso-8601-date=”2014-06-13:10:00”>Accessed on:
 	<year>2014</year, <month>June</month>,<day>13</day> at 10:00am</date-in-citation>
+
+----
 
 ### Additional URI/Location /bridge service
 Typically used for a URL in addition to the regular DOI
@@ -159,6 +179,8 @@ Typically used for a URL in addition to the regular DOI
 
 #### `<uri>`
 	`<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>`
+ 
+----
  
 ### Secondary distributor/ other Institutional Role
 Typically used for a URL in addition to the regular DOI
