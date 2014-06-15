@@ -121,36 +121,44 @@ Possibly a URL, but ideally a persistent ( DOI, PURL, Handle, or ARK) HTTP form 
 Note: At the moment, <pub-id> does not take any linking attributes. We might need to add these to JATS:
 	<pub-id="doi" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">10.6070/H4WM1BBQ</doi>
 
-<ext-link> with @ext-link-type
-<ext-link-type="uri" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">
-http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ</ext-link>
+#### `<ext-link>` with `@ext-link-type`  
+	<ext-link-type="uri" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">
+	http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ</ext-link>
 
-<uri>
-<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198"</uri>
-Publisher/Distributor/ Repository/ Data Center /Archive
+#### `<uri>`  
+	<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198"</uri>
+
+### Publisher/Distributor/ Repository/ Data Center /Archive
+
 The organization distributing and curating the data (ideally over the long term) such as a Data Center or Archive
-<publisher-name>
-<publisher-name>Public Library of Science</publisher-name>
-Location of publisher/distributor
-Such as city, state, country
-<publisher-loc>
-<publisher-loc>San Francisco, USA</publisher-loc>
-Access Date(s) and Time
-Exactly when the online data was accessed.
-<date-in-citation>
-<date-in-citation iso-8601-date=”2014-06-13:10:00”>
-Accessed on:<year>2014</year, <month>June</month>,<day>13</day> at 10:00am</date-in-citation>
-Additional URI/Location /bridge service
-Typically used for a URL in addition to the regular DOI
-<ext-link> with @ext-link-type
-<ext-link ext-link-type="uri" xlink:href="http://
-r-forge.r-project.org/projects/splits">
-http://r-forge.r-project.org/projects/splits</ext-link>
 
-<uri>
-<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198"</uri>
- Secondary distributor/ other Institutional Role
+#### <publisher-name>
+	<publisher-name>Public Library of Science</publisher-name>
+
+### Location of publisher/distributor  
+Such as city, state, country
+#### `<publisher-loc>`
+	<publisher-loc>San Francisco, USA</publisher-loc>
+
+### Access Date(s) and Time 
+Exactly when the online data was accessed.
+
+#### `<date-in-citation>`
+	<date-in-citation iso-8601-date=”2014-06-13:10:00”>Accessed on:
+	<year>2014</year, <month>June</month>,<day>13</day> at 10:00am</date-in-citation>
+
+### Additional URI/Location /bridge service
 Typically used for a URL in addition to the regular DOI
-     institution with @content-type      institution-wrap (*would need to be added*) 
-<date-in-citation iso-8601-date=”2014-06-13:10:00”>
-Accessed on:<year>2014</year, <month>June</month>,<day>13</day> at 10:00am</date-in-citation>
+
+#### `<ext-link>` with `@ext-link-type`
+	<ext-link ext-link-type="uri" xlink:href="http://r-forge.r-project.org/projects/splits">http://r-forge.r-project.org/projects/splits</ext-link>
+
+#### `<uri>`
+	<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198"</uri>
+ 
+### Secondary distributor/ other Institutional Role
+Typically used for a URL in addition to the regular DOI
+
+#### institution with `@content-type` `institution-wrap` (*would need to be added*) 
+	<date-in-citation iso-8601-date=”2014-06-13:10:00”>
+	Accessed on:<year>2014</year, <month>June</month>,<day>13</day> at 10:00am</date-in-citation>
