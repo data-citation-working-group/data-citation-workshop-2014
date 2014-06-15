@@ -151,7 +151,8 @@ Exactly when the online data was accessed.
 Typically used for a URL in addition to the regular DOI
 
 #### `<ext-link>` with `@ext-link-type`
-	<ext-link ext-link-type="uri" xlink:href="http://r-forge.r-project.org/projects/splits">http://r-forge.r-project.org/projects/splits</ext-link>
+	<ext-link ext-link-type="uri" xlink:href="http://r-forge.r-project.org/projects/splits">
+	http://r-forge.r-project.org/projects/splits</ext-link>
 
 #### `<uri>`
 	<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198"</uri>
