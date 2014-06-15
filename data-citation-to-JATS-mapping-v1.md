@@ -156,7 +156,7 @@ Typically used for a URL in addition to the regular DOI
 	http://r-forge.r-project.org/projects/splits</ext-link>
 
 #### `<uri>`
-	<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198"</uri>
+	`<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>`
  
 ### Secondary distributor/ other Institutional Role
 Typically used for a URL in addition to the regular DOI
