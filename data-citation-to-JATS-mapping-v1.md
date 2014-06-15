@@ -42,6 +42,8 @@ As a reminder, here is a full example of a JATS-tagged citation for a journal ar
 	</mixed-citation>
 	</ref>
 
+----
+
 ## Fields to JATS Elements Mapping
 
 In the following pages: 
