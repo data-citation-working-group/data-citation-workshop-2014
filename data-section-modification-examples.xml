@@ -1,0 +1,42 @@
+
+<sec sec-type="datasets">
+	<title>Major datasets</title>
+	<p>The following datasets were generated:</p><p>
+		<related-object content-type="generated-dataset" id="dataro1" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset">
+			<name><surname>Dunn</surname><given-names>JG</given-names></name><x>, </x><name><surname>Weissman</surname><given-names>JS</given-names></name><x>, </x><year>2013</year><x>, </x><source>Ribosome profiling reveals pervasive and regulated stop codon readthrough in <italic>Drosophila melanogaster</italic></source><x>, </x><ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE49197">http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc&#x3d;GSE49197</ext-link><x>, </x><comment>Publicly available at NCBI GEO (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/">http://www.ncbi.nlm.nih.gov/geo/</ext-link>).</comment>
+		</related-object>
+		</p><p>
+		<related-object content-type="generated-dataset" id="dataro2" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset">
+			<name><surname>Dunn</surname><given-names>JG</given-names></name><x>, </x><name><surname>Foo</surname><given-names>CK</given-names></name><x>, </x><name><surname>Belletier</surname><given-names>NG</given-names></name><x>, </x><name><surname>Gavis</surname><given-names>ER</given-names></name><x>, </x><name><surname>Weissman</surname><given-names>JS</given-names></name><x>, </x><year>2013</year><x>, </x><source>Data from: Ribosome profiling reveals pervasive and regulated stop codon readthrough in <italic>Drosophila melanogaster</italic></source><x>, </x><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.6nr73">http://dx.doi.org/10.5061/dryad.6nr73</ext-link><x>, </x><comment>Supplementary tables 1&#x2013;4 publicly available at Dryad (<ext-link ext-link-type="uri" xlink:href="http://www.datadryad.org/">http://www.datadryad.org</ext-link>).</comment>
+		</related-object></p><p>The following previously published datasets were used:</p><p>
+		<related-object content-type="generated-dataset" id="dataro3" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset">
+			<collab>Drosophila Population Genomics Project</collab><x>, </x><year>2012</year><x>, </x><source>Data from: 50 Genomes - release 1.0</source><x>, </x><ext-link ext-link-type="uri" xlink:href="ftp://ftp.ensembl.org/pub/release-67/variation/gvf/drosophila_melanogaster/Drosophila_melanogaster.gvf.gz">ftp://ftp.ensembl.org/pub/release-67/variation/gvf/drosophila_melanogaster/Drosophila_melanogaster.gvf.gz</ext-link><x>, </x><comment>Freely available online. Downloaded from Ensembl on 23 August.</comment>
+		</related-object>
+		<related-object content-type="generated-dataset" id="dataro6" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset">
+			<name><surname>Qin</surname><given-names>X</given-names></name><x>, </x><name><surname>Ahn</surname><given-names>S</given-names></name><x>, </x><name><surname>Speed</surname><given-names>TP</given-names></name><x>, </x><name><surname>Rubin</surname><given-names>GM</given-names></name><x>, </x><year>2007</year><x>, </x><source>Data from: Global analyses of mRNA translational control during early <italic>Drosophila</italic> embryogenesis (<italic>Genome Biology</italic> doi:10.1186/gb-2007-8-4-r63)</source><x>, </x><ext-link ext-link-type="uri" xlink:href="http://genomebiology.com/content/supplementary/gb-2007-8-4-r63-s1.xls">http://genomebiology.com/content/supplementary/gb-2007-8-4-r63-s1.xls</ext-link><x>, </x><comment>Open data from <italic>Genome Biology</italic> (Additional data file 1).</comment>
+		</related-object>
+	</sec>
+
+BECOMES:
+
+
+<sec sec-type="datasets">
+	<title>Major datasets</title>
+	<p>The following datasets were generated:</p><p>
+		<related-object content-type="generated-dataset" id="dataro1" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset">
+			<name><surname>Dunn</surname><given-names>JG</given-names></name><x>, </x><name><surname>Weissman</surname><given-names>JS</given-names></name><x>, </x><year>2013</year><x>, </x><source>Ribosome profiling reveals pervasive and regulated stop codon readthrough in <italic>Drosophila melanogaster</italic></source><x>, </x><ext-link specific-use="data" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE49197">http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc&#x3d;GSE49197</ext-link><x>, </x><comment>Publicly available at NCBI GEO (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/">http://www.ncbi.nlm.nih.gov/geo/</ext-link>).</comment>
+		</related-object>
+		</p><p>
+		<related-object content-type="generated-dataset" id="dataro2" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset">
+			<name><surname>Dunn</surname><given-names>JG</given-names></name><x>, </x><name><surname>Foo</surname><given-names>CK</given-names></name><x>, </x><name><surname>Belletier</surname><given-names>NG</given-names></name><x>, </x><name><surname>Gavis</surname><given-names>ER</given-names></name><x>, </x><name><surname>Weissman</surname><given-names>JS</given-names></name><x>, </x><year>2013</year><x>, </x><source>Data from: Ribosome profiling reveals pervasive and regulated stop codon readthrough in <italic>Drosophila melanogaster</italic></source><x>, </x><ext-link  specific-use="data" ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.6nr73">http://dx.doi.org/10.5061/dryad.6nr73</ext-link><x>, </x><comment>Supplementary tables 1&#x2013;4 publicly available at Dryad (<ext-link ext-link-type="uri" xlink:href="http://www.datadryad.org/">http://www.datadryad.org</ext-link>).</comment>
+		</related-object></p><p>The following previously published datasets were used:</p><p>
+		<related-object content-type="generated-dataset" id="dataro3" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset">
+			<collab>Drosophila Population Genomics Project</collab><x>, </x><year>2012</year><x>, </x><source>Data from: 50 Genomes - release 1.0</source><x>, </x><ext-link  specific-use="data" ext-link-type="uri" xlink:href="ftp://ftp.ensembl.org/pub/release-67/variation/gvf/drosophila_melanogaster/Drosophila_melanogaster.gvf.gz">ftp://ftp.ensembl.org/pub/release-67/variation/gvf/drosophila_melanogaster/Drosophila_melanogaster.gvf.gz</ext-link><x>, </x><comment>Freely available online. Downloaded from Ensembl on 23 August.</comment>
+		</related-object>
+		<related-object content-type="generated-dataset" id="dataro6" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset">
+			<name><surname>Qin</surname><given-names>X</given-names></name><x>, </x><name><surname>Ahn</surname><given-names>S</given-names></name><x>, </x><name><surname>Speed</surname><given-names>TP</given-names></name><x>, </x><name><surname>Rubin</surname><given-names>GM</given-names></name><x>, </x><year>2007</year><x>, </x><source>Data from: Global analyses of mRNA translational control during early <italic>Drosophila</italic> embryogenesis (<italic>Genome Biology</italic> doi:10.1186/gb-2007-8-4-r63)</source><x>, </x><ext-link  specific-use="data" ext-link-type="uri" xlink:href="http://genomebiology.com/content/supplementary/gb-2007-8-4-r63-s1.xls">http://genomebiology.com/content/supplementary/gb-2007-8-4-r63-s1.xls</ext-link><x>, </x><comment>Open data from <italic>Genome Biology</italic> (Additional data file 1).</comment>
+		</related-object>
+	</sec>
+
+
+
