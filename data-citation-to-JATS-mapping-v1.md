@@ -65,17 +65,20 @@ Data creators. People or organizations responsible for developing (intellectual 
 #### person-group/name  
 	<person-group person-group-type=”author”>
 	<name> <surname>Edelstein</surname> <given-names>PH</given-names> </name>
+	</person-group>
 
 #### person-group/collab  
 	<person-group person-group-type=”author”>
-	<collab collab-type=”compilers”>The BAC Resource Consortium</collab> </person-group>  
+	<collab collab-type=”compilers”>The BAC Resource Consortium</collab> 
+	</person-group>  
 
 #### institution  
 	<institution>The World Health Organization</institution>  
 
 #### institution-wrap  
 	<institution-wrap>
-	<institution-id institution-id-type="Ringgold">1812</institution-id> <institution content-type="university">
+	<institution-id institution-id-type="Ringgold">1812</institution-id> 
+	<institution content-type="university">
 	Harvard University</institution>
 	</institution-wrap>
 
