@@ -71,6 +71,14 @@ Data creators. People or organizations responsible for developing (intellectual 
 	<person-group person-group-type=”author”>
 	<collab collab-type=”compilers”>The BAC Resource Consortium</collab> 
 	</person-group>  
+	
+	<person-group person-group-type=”curator”>
+	<collab collab-type=”compilers”>The BAC Resource Consortium</collab> 
+	</person-group>  	
+	
+	
+Need to find a way to support curators (do we need to extend the list person-group-type can take, do we need to extend
+the  list that collab-type can take?0
 
 #### institution  
 	<institution>The World Health Organization</institution>  
