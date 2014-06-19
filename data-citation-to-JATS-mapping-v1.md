@@ -156,7 +156,8 @@ Note: At the moment, <pub-id> does not take any linking attributes. We might nee
 The organization distributing and curating the data (ideally over the long term) such as a Data Center or Archive
 
 #### <publisher-name>
-	<publisher-name>Public Library of Science</publisher-name>
+	<publisher-name>Uniprot</publisher-name>
+	<publisher-name>Dryad</publisher-name>
 
 ----
 
