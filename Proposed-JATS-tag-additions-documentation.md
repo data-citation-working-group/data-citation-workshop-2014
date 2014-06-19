@@ -19,7 +19,7 @@ additions/modifications are explicity suggested.
 - extend `person-group-type`
     - `curator`
 - extend `pub-id-type`
-    - Arq
+    - ARK
     - Handle
  
 
