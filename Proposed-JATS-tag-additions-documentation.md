@@ -1,13 +1,26 @@
 Based on the overview of how [to potentially model data citation in JATS](https://github.com/data-citation-working-group/data-citation-workshop-2014/blob/master/data-citation-to-JATS-mapping-v1.md) a number of tag 
 additions/modifications are explicity suggested. 
 
-These are
+£
+
+
+### Elements
 
 - addition of a `<version>` element 
-- addition of a `<data-format>` element (would '<resource-format>' be a better name?)
+- addition of a `<data-title>`
+
+### Attributes
+
+- 
 - extension of `<pub-id>` to take the `@xlink` attributes
-- addition of an '<institution-wrap>' element
+- adding the property `@assiging-authority`
+- extend `person-group-type`
+    - `curator`
+- extend `pub-id-type`
+    - Arq
+    - Handle
  
+
 These new elements to be be added to (at least):
    <mixed-citation>
    <element-citation>
