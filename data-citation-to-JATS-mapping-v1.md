@@ -103,6 +103,9 @@ Formal title  of the dataset (may include applicable dates) (optional type subpr
 #### source
 	<source>Monitoring the Future: A Continuing Study of American Youth (12th Grade Survey)</source>  
 
+Source might not be the best current suggestion. Alternative tags that we might consider could
+be `<data-title>`, and that would need to be a tag that can live in the citation tags.
+
 ----
 
 ### Version/Edition
