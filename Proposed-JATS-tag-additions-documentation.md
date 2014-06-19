@@ -1,15 +1,19 @@
 Based on the overview of how [to potentially model data citation in JATS](https://github.com/data-citation-working-group/data-citation-workshop-2014/blob/master/data-citation-to-JATS-mapping-v1.md) a number of tag 
 additions/modifications are explicity suggested. 
 
+### Best pactice for exsisting tags
+
+(the info on `publication-type="data"` and `specific-use="data"`)
 
 ### Elements
 
 - addition of a `<version>` element 
-- addition of a `<data-title>`
+- addition of a `<data-title>` element 
+
 
 ### Attributes
 
-- 
+- extension of `<person>` to take `id`
 - extension of `<pub-id>` to take the `@xlink` attributes
 - adding the property `@assiging-authority`
 - extend `person-group-type`
