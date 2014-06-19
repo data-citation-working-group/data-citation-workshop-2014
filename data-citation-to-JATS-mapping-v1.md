@@ -180,7 +180,7 @@ Such as city, state, country
 Exactly when the online data was accessed.
 
 #### `<date-in-citation>`
-	<date-in-citation iso-8601-date=”2014-06-13:10:00”>Accessed on:
+	<date-in-citation content-type="access-date" iso-8601-date=”2014-06-13:10:00”>Accessed on:
 	<year>2014</year, <month>June</month>,<day>13</day> at 10:00am</date-in-citation>
 
 ----
