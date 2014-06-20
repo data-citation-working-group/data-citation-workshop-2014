@@ -54,7 +54,7 @@ In the following pages:
 
 ----
 
-### Author/Rightsholder/ Creator/Primary Responsibility
+### Author/Rightsholder/ Creator/Primary Responsibility
 Data creators. People or organizations responsible for developing (intellectual work) the dataset (_type subproperty_) _Primary Responsibility_
 
 ### Potential JATS Equivalents  
@@ -62,20 +62,20 @@ Data creators. People or organizations responsible for developing (intellectual 
 	<name> <surname>Edelstein</surname> <given-names>PH</given-names> </name>
 	
 
-#### person-group/name  
+#### person-group/name  
 	<person-group person-group-type=”author”>
 	<name> <surname>Edelstein</surname> <given-names>PH</given-names> </name>
 	</person-group>
 
-#### person-group/collab  
+#### person-group/collab  
 	<person-group person-group-type=”author”>
 	<collab collab-type=”compilers”>The BAC Resource Consortium</collab> 
 	</person-group>  
 
-#### institution  
+#### institution  
 	<institution>The World Health Organization</institution>  
 
-#### institution-wrap  
+#### institution-wrap  
 	<institution-wrap>
 	<institution-id institution-id-type="Ringgold">1812</institution-id> 
 	<institution content-type="university">
@@ -84,39 +84,39 @@ Data creators. People or organizations responsible for developing (intellectual 
 
 ----
 
-### Publication/Release Date /Year  
+### Publication/Release Date /Year  
 When this version of the dataset was made available for citation. May be only a year
 
-#### date  
+#### date  
 	<date iso-8601-date=”2014-07”>
 	<month>July</month><year>2014</year>
 	</date>
 
-#### year  
+#### year  
 	<year iso-8601-date=”2014-07”>2013</year>
 
 ----
 
-### Title/Name of the Dataset
+### Title/Name of the Dataset
 Formal title  of the dataset (may include applicable dates) (optional type subproperty). Some sources place this inside the name.
 
-#### source
+#### source
 	<source>Monitoring the Future: A Continuing Study of American Youth (12th Grade Survey)</source>  
 
 ----
 
-### Version/Edition
+### Version/Edition
 The precise version number of the data used.
 
-#### edition  
+#### edition  
 	<edition>2014- Third</edition>
 
-#### version - If edition and version are considered to be different, a new element would need to be added to JATS:
+#### version - If edition and version are considered to be different, a new element would need to be added to JATS:
 	<version>16.2.1</version>
 
 ----
 
-### Resource Type  
+### Resource Type  
 Material designator; medium; (general type description subpropery).  
 The only way current JATS has to record this is `@publication-format/@publication-type`
 	<mixed-citation publication-type=”dataset”    publication-format=”online”>...
@@ -132,61 +132,61 @@ If this information should be recorded as an element, a new element would need t
 ### Persistent Global Identifier/ Locator (DOI/URL)  
 Possibly a URL, but ideally a persistent ( DOI, PURL, Handle, or ARK) HTTP form of the DOI is preferred by some sources.
 
-#### `<pub-id>` with `@pub-id-type`
+#### `<pub-id>` with `@pub-id-type`
 	<pub-id pub-id-type="doi">10.1128/JCM.02410-08</pub-id>
 	<pub-id pub-id-type="doi">10.1099/ijs.0.039248-0</pub-id>
 
 Note: At the moment, <pub-id> does not take any linking attributes. We might need to add these to JATS:  
-	`<pub-id="doi" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">10.6070/H4WM1BBQ</pub-id>`
+	`<pub-id="doi" xlink:href="http://dx.doi.org/10.6070/H4WM1BBQ">10.6070/H4WM1BBQ</pub-id>`
 
-#### `<ext-link>` with `@ext-link-type`  
-	<ext-link-type="uri" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">
-	http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ</ext-link>
+#### `<ext-link>` with `@ext-link-type`  
+	<ext-link-type="uri" xlink:href="http://dx.doi.org/10.6070/H4WM1BBQ">
+	http://dx.doi.org/10.6070/H4WM1BBQ</ext-link>
 
-#### `<uri>`  
+#### `<uri>`  
 	<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>
 
 ----
 
-### Publisher/Distributor/ Repository/ Data Center /Archive
+### Publisher/Distributor/ Repository/ Data Center /Archive
 
 The organization distributing and curating the data (ideally over the long term) such as a Data Center or Archive
 
-#### <publisher-name>
+#### <publisher-name>
 	<publisher-name>Public Library of Science</publisher-name>
 
 ----
 
-### Location of publisher/distributor  
+### Location of publisher/distributor  
 Such as city, state, country
-#### `<publisher-loc>`
+#### `<publisher-loc>`
 	<publisher-loc>San Francisco, USA</publisher-loc>
 
 ----
 
-### Access Date(s) and Time 
+### Access Date(s) and Time 
 Exactly when the online data was accessed.
 
-#### `<date-in-citation>`
+#### `<date-in-citation>`
 	<date-in-citation iso-8601-date=”2014-06-13:10:00”>Accessed on:
 	<year>2014</year, <month>June</month>,<day>13</day> at 10:00am</date-in-citation>
 
 ----
 
-### Additional URI/Location /bridge service
+### Additional URI/Location /bridge service
 Typically used for a URL in addition to the regular DOI
 
-#### `<ext-link>` with `@ext-link-type`
+#### `<ext-link>` with `@ext-link-type`
 	<ext-link ext-link-type="uri" xlink:href="http://r-forge.r-project.org/projects/splits">
 	http://r-forge.r-project.org/projects/splits</ext-link>
 
-#### `<uri>`
+#### `<uri>`
 	`<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>`
  
 ----
  
-### Secondary distributor/ other Institutional Role
+### Secondary distributor/ other Institutional Role
 Typically used for a URL in addition to the regular DOI
 
-#### institution with `@content-type` `institution-wrap` (*would need to be added*) 
+#### institution with `@content-type` `institution-wrap` (*would need to be added*) 
 	*do we need an institution example here?*
