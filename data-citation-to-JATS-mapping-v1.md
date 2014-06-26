@@ -1,7 +1,62 @@
 
 # Data citation guidelines to JATS mapping **\[DRAFT\]**
 
-@@TOC@@
+- [Data citation guidelines to JATS mapping **\[DRAFT\]**](#data-citation-guidelines-to-jats-mapping-draft)
+    - [Introduction.](#introduction)
+    - [Layout of this document.](#layout-of-this-document)
+    - [JATS Citation tagging with a `publication-type="data"` attribute.](#jats-citation-tagging-with-a-publication-typedata-attribute)
+        - [Examples](#examples)
+    - [JATS cross references, and external references with `specific-use="data"`](#jats-cross-references-and-external-references-with-specific-usedata)
+        - [Examples](#examples)
+    - [Data citation elements - decision criteria.](#data-citation-elements---decision-criteria)
+    - [1. Author/Rightsholder/ Creator/Primary Responsibility](#1-authorrightsholder-creatorprimary-responsibility)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<name>`](#name)
+            - [person-group/name](#person-groupname)
+            - [person-group/collab](#person-groupcollab)
+            - [`<institution>`](#institution)
+            - [`<institution-wrap>`](#institution-wrap)
+        - [JATS modification suggested](#jats-modification-suggested)
+            - [person-group/collab](#person-groupcollab)
+    - [2. Publication/Release Date /Year](#2-publicationrelease-date-year)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<date>`](#date)
+            - [`<year>`](#year)
+    - [3. Title/Name of the Dataset](#3-titlename-of-the-dataset)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<source>`](#source)
+        - [JATS modification suggested](#jats-modification-suggested)
+            - [`<data-title>`](#data-title)
+    - [4. Version/Edition](#4-versionedition)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<edition>`](#edition)
+        - [JATS modification suggested](#jats-modification-suggested)
+            - [`<version>`](#version)
+    - [5. Resource Type](#5-resource-type)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`@publication-format/@publication-type`](#publication-formatpublication-type)
+    - [6. Persistent Global Identifier/ Locator (DOI/URL)](#6-persistent-global-identifier-locator-doiurl)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<pub-id>` with `@pub-id-type`](#pub-id-with-pub-id-type)
+            - [`<ext-link>` with `@ext-link-type`](#ext-link-with-ext-link-type)
+            - [`<uri>`](#uri)
+        - [JATS modification suggested](#jats-modification-suggested)
+            - [`pub-id` with `xlink` attribute](#pub-id-with-xlink-attribute)
+    - [7. Publisher/Distributor/ Repository/ Data Center /Archive](#7-publisherdistributor-repository-data-center-archive)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<publisher-name>`](#publisher-name)
+    - [8. Location of publisher/distributor](#8-location-of-publisherdistributor)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<publisher-loc>`](#publisher-loc)
+    - [9. Access Date(s) and Time](#9-access-dates-and-time)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<date-in-citation>`](#date-in-citation)
+    - [10. Additional URI/Location /bridge service](#10-additional-urilocation-bridge-service)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
+            - [`<ext-link>` with `@ext-link-type`](#ext-link-with-ext-link-type)
+            - [`<uri>`](#uri)
+    - [11. Secondary distributor/ other Institutional Role](#11-secondary-distributor-other-institutional-role)
+        - [Existing JATS Equivalents](#existing-jats-equivalents)
 
 ## Introduction.
 This document provides a guideline on how to use the [Journal Article Tag Suite](http://jats.nlm.nih.gov/about.html) to tag data citations. These are an
@@ -24,9 +79,9 @@ JATS that could make implementing data citation easier, and we clearly delineate
 ## JATS Citation tagging with a `publication-type="data"` attribute.
 
 In JATS references are tagged as `<mixed-citation>` or `<element-citation>`. These tags can carry the attribute `publication-type`. We make the
-simple recommendation that for data citations the attribute be set to `data`.
+simple recommendation that for data citations the attribute be set to `data`.  
 
-#### Examples
+### Examples
 	<mixed-citation publication-type="data">
 		...
 	</mixed-citation>
@@ -40,9 +95,9 @@ simple recommendation that for data citations the attribute be set to `data`.
 ## JATS cross references, and external references with `specific-use="data"`
 
 Cross references and external references are supported via use of `<x-ref>`, `<pub-id>` and `<ext-link>` respectively. We make the recommendation that these take
-the `specific-use="data"` attribute where possible, and where this will not conflict with an existing instance of `specific-use`.
+the `specific-use="data"` attribute where possible, and where this will not conflict with an existing instance of `specific-use`.  
 
-#### Examples
+### Examples
 	<pub-id specific-use=“data”>
 	<ext-link specific-use=“data”>
 	<x-ref specific-use=“data”>
