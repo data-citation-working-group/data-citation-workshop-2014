@@ -3,7 +3,7 @@
 
 ## Introduction.
 
---
+---
 
 ## Data citation elements - decision criteria.
 
@@ -11,7 +11,7 @@ The document makes a start at answering the question of how parts of dataset cit
 A basic assumption is that all these elements will be placed inside the `<mixed-citation>` element, which will also include punctuation and other information, not recorded in these elements. There is rarely one way to tag something, of course, as JATS is permissive rather than enforcing.
 As a reminder, here is a full example of a JATS-tagged citation for a journal article (XML courtesy of Jo McEntyre, as are most of the rest of the examples).
 
---
+---
 
 ## Fields to JATS Elements Mapping
 
