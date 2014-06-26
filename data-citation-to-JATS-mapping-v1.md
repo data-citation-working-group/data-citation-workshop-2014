@@ -22,9 +22,12 @@ JATS that could make implementing data citation easier, and we clearly delineate
 
 ## Data citation elements - decision criteria.
 
-The document makes a start at answering the question of how parts of dataset citations  (as identified in the spreadsheet) might be tagged using JATS.
-A basic assumption is that all these elements will be placed inside the `<mixed-citation>` element, which will also include punctuation and other information, not recorded in these elements. There is rarely one way to tag something, of course, as JATS is permissive rather than enforcing.
-As a reminder, here is a full example of a JATS-tagged citation for a journal article (XML courtesy of Jo McEntyre, as are most of the rest of the examples).
+The workshop settled on a set of fields to map based on a an analysis of published recommendations from a large variety of sources on best practice for data citation.
+By identifying the most commonly used fields across all of these recommendations we hope that the mapping guidelines provided in this document can cover
+a significant number of use cases for data citation, however we do not anticipate that these guidelines will cover all use cases (though we would be delighted if that
+	turns out to be the case). The working document that summarises that work can be found at .... The fields that were identified are:
+
+
 
 ---
 
