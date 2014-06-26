@@ -1,11 +1,45 @@
 
-@@TOC@@
+# Contents
+- [Contents](#contents)
+- [Introduction](#introduction)
+- [Mapping Data Citing Fields to JATS Elements  V1 2014-06-13](#mapping-data-citing-fields-to-jats-elements--v1-2014-06-13)
+    - [Fields to JATS Elements Mapping](#fields-to-jats-elements-mapping)
+        - [Author/Rightsholder/ Creator/Primary Responsibility](#authorrightsholder-creatorprimary-responsibility)
+        - [Potential JATS Equivalents](#potential-jats-equivalents)
+            - [name](#name)
+            - [person-group/name](#person-groupname)
+            - [person-group/collab](#person-groupcollab)
+            - [institution](#institution)
+            - [institution-wrap](#institution-wrap)
+        - [Publication/Release Date /Year](#publicationrelease-date-year)
+            - [date](#date)
+            - [year](#year)
+        - [Title/Name of the Dataset](#titlename-of-the-dataset)
+            - [source](#source)
+        - [Version/Edition](#versionedition)
+            - [edition](#edition)
+            - [version - If edition and version are considered to be different, a new element would need to be added to JATS:](#version---if-edition-and-version-are-considered-to-be-different-a-new-element-would-need-to-be-added-to-jats)
+        - [Resource Type](#resource-type)
+        - [Persistent Global Identifier/ Locator (DOI/URL)](#persistent-global-identifier-locator-doiurl)
+            - [`<pub-id>` with `@pub-id-type`](#pub-id-with-pub-id-type)
+            - [`<ext-link>` with `@ext-link-type`](#ext-link-with-ext-link-type)
+            - [`<uri>`](#uri)
+        - [Publisher/Distributor/ Repository/ Data Center /Archive](#publisherdistributor-repository-data-center-archive)
+            - [<publisher-name>](#publisher-name)
+        - [Location of publisher/distributor](#location-of-publisherdistributor)
+            - [`<publisher-loc>`](#publisher-loc)
+        - [Access Date(s) and Time](#access-dates-and-time)
+            - [`<date-in-citation>`](#date-in-citation)
+        - [Additional URI/Location /bridge service](#additional-urilocation-bridge-service)
+            - [`<ext-link>` with `@ext-link-type`](#ext-link-with-ext-link-type)
+            - [`<uri>`](#uri)
+        - [Secondary distributor/ other Institutional Role](#secondary-distributor-other-institutional-role)
 
-## Introduction.
+# Introduction
 
---
+This is the introduction.
 
-## Data citation elements - decision criteria.
+# Mapping Data Citing Fields to JATS Elements  V1 2014-06-13
 
 The document makes a start at answering the question of how parts of dataset citations  (as identified in the spreadsheet) might be tagged using JATS.
 A basic assumption is that all these elements will be placed inside the `<mixed-citation>` element, which will also include punctuation and other information, not recorded in these elements. There is rarely one way to tag something, of course, as JATS is permissive rather than enforcing.
