@@ -6,10 +6,14 @@
 ## Introduction.
 This document provides a guideline on how to use the [Journal Article Tag Suite](http://jats.nlm.nih.gov/about.html) to tag data citations. These are an
 are an evolving set of guidelines that have been developed sa part of the NISO-JATS Data Citation Implementation Workshop held at the British Library on
-the 19<sup>th</sup> of June 2014.
+the 19<sup>th</sup> of June 2014. This document is aimed at describing how to tag data citations within the XML. These guidelines do not concern themselves
+with where data citations should be placed within the article, nor how they should be presented to the reader, but rather attempts to provide
+JATS tagging guidelines that can improve the tagging irrespective of those concerns. 
 
 
 ## Layout of this document.
+
+We describe
 
 ---
 
