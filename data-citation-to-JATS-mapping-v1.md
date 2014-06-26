@@ -1,6 +1,9 @@
+
+@@TOC@@
+
 # Mapping Data Citing Fields to JATS Elements  V1 2014-06-13
 
-The document makes a start at answering the question of how parts of dataset citations  (as identified in the spreadsheet) might be tagged using JATS. 
+The document makes a start at answering the question of how parts of dataset citations  (as identified in the spreadsheet) might be tagged using JATS.
 A basic assumption is that all these elements will be placed inside the `<mixed-citation>` element, which will also include punctuation and other information, not recorded in these elements. There is rarely one way to tag something, of course, as JATS is permissive rather than enforcing.
 As a reminder, here is a full example of a JATS-tagged citation for a journal article (XML courtesy of Jo McEntyre, as are most of the rest of the examples).
 
@@ -8,10 +11,10 @@ As a reminder, here is a full example of a JATS-tagged citation for a journal ar
 
 ## Fields to JATS Elements Mapping
 
-In the following pages: 
+In the following pages:
 - A numbered heading will list the field name (as found in several sources)  
 - The paragraph below it will give an approximate definition. (Non-italicized definitions are from [ESIP Data Citation Guidelines](http://commons.esipfed.org/node/308) (Ruth Duerr 20120). Properties and sub-properties are from the [DataCite Schema 2013](http://schema.datacite.org/meta/kernel-3/index.html))  
-- The bulleted list following will show JATS alternatives, named and tagged.   
+- The bulleted list following will show JATS alternatives, named and tagged.
 - Comments MAY be given at the end.  
 
 ----
@@ -22,7 +25,7 @@ Data creators. People or organizations responsible for developing (intellectual 
 ### Potential JATS Equivalents  
 #### name  
 	<name> <surname>Edelstein</surname> <given-names>PH</given-names> </name>
-	
+
 
 #### person-group/name  
 	<person-group person-group-type=”author”>
@@ -39,7 +42,7 @@ Data creators. People or organizations responsible for developing (intellectual 
 
 #### institution-wrap  
 	<institution-wrap>
-	<institution-id institution-id-type="Ringgold">1812</institution-id> 
+	<institution-id institution-id-type="Ringgold">1812</institution-id>
 	<institution content-type="university">
 	Harvard University</institution>
 	</institution-wrap>
@@ -81,7 +84,7 @@ The precise version number of the data used.
 ### Resource Type  
 Material designator; medium; (general type description subpropery).  
 The only way current JATS has to record this is `@publication-format/@publication-type`
-	<mixed-citation publication-type=”dataset”    publication-format=”online”>...
+	<mixed-citation publication-type=”dataset”   publication-format=”online”>...
 
 If this information should be recorded as an element, a new element would need to be added to JATS, for example one of:
 
@@ -126,7 +129,7 @@ Such as city, state, country
 
 ----
 
-### Access Date(s) and Time 
+### Access Date(s) and Time
 Exactly when the online data was accessed.
 
 #### `<date-in-citation>`
@@ -144,9 +147,9 @@ Typically used for a URL in addition to the regular DOI
 
 #### `<uri>`
 	`<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>`
- 
+
 ----
- 
+
 ### Secondary distributor/ other Institutional Role
 Typically used for a URL in addition to the regular DOI
 
