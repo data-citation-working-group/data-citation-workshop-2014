@@ -47,7 +47,6 @@ Data creators. People or organizations responsible for developing (intellectual 
 #### name  
 	<name> <surname>Edelstein</surname> <given-names>PH</given-names> </name>
 
-
 #### person-group/name  
 	<person-group person-group-type=”author”>
 	<name> <surname>Edelstein</surname> <given-names>PH</given-names> </name>
@@ -55,7 +54,6 @@ Data creators. People or organizations responsible for developing (intellectual 
 
 #### person-group/collab  
 	<person-group person-group-type=”author”>
-	<collab collab-type=”compilers”>The BAC Resource Consortium</collab> 
 	</person-group>  
 
 #### institution  
@@ -69,6 +67,11 @@ Data creators. People or organizations responsible for developing (intellectual 
 	</institution-wrap>
 
 ### JATS modification suggested
+
+#### person-group/collab  
+	<collab collab-type="curators">The BAC Resource Consortium</collab> 
+
+We propose `collab-type` be extended to include `curators`
 
 ----
 
