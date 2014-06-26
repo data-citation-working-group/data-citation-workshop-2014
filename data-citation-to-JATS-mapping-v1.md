@@ -26,7 +26,7 @@ In the following pages:
 ## 1. Author/Rightsholder/ Creator/Primary Responsibility
 Data creators. People or organizations responsible for developing (intellectual work) the dataset (_type subproperty_) _Primary Responsibility_
 
-### Potential JATS Equivalents  
+### Existing JATS Equivalents  
 #### name  
 	<name> <surname>Edelstein</surname> <given-names>PH</given-names> </name>
 
@@ -50,6 +50,8 @@ Data creators. People or organizations responsible for developing (intellectual 
 	<institution content-type="university">
 	Harvard University</institution>
 	</institution-wrap>
+
+### JATS modification required
 
 ----
 
