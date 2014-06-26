@@ -102,8 +102,8 @@ Note: At the moment, <pub-id> does not take any linking attributes. We might nee
 	`<pub-id="doi" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">10.6070/H4WM1BBQ</pub-id>`
 
 #### `<ext-link>` with `@ext-link-type`  
-	<ext-link-type="uri" xlink:href="http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ">
-	http://dx.doi.org/http://dx.doi.org/10.6070/H4WM1BBQ</ext-link>
+	<ext-link-type="uri" xlink:href="http://dx.doi.org/10.6070/H4WM1BBQ">
+	http://dx.doi.org/10.6070/H4WM1BBQ</ext-link>
 
 #### `<uri>`  
 	<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>
