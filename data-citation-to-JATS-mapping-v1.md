@@ -58,6 +58,7 @@ Data creators. People or organizations responsible for developing (intellectual 
 ## 2. Publication/Release Date /Year  
 When this version of the dataset was made available for citation. May be only a year
 
+### Existing JATS Equivalents  
 #### date  
 	<date iso-8601-date=”2014-07”>
 	<month>July</month><year>2014</year>
@@ -66,29 +67,35 @@ When this version of the dataset was made available for citation. May be only a 
 #### year  
 	<year iso-8601-date=”2014-07”>2014</year>
 
+### JATS modification suggested
 ----
 
 ## 3. Title/Name of the Dataset
 Formal title  of the dataset (may include applicable dates) (optional type subproperty). Some sources place this inside the name.
 
+### Existing JATS Equivalents  
 #### source
 	<source>Monitoring the Future: A Continuing Study of American Youth (12th Grade Survey)</source>  
 
+### JATS modification suggested
 ----
 
 ## 4. Version/Edition
 The precise version number of the data used.
 
+### Existing JATS Equivalents  
 #### edition  
 	<edition>2014- Third</edition>
 
 #### version - If edition and version are considered to be different, a new element would need to be added to JATS:
 	<version>16.2.1</version>
 
+### JATS modification suggested
 ----
 
 ## 5. Resource Type  
 Material designator; medium; (general type description subpropery).  
+### Existing JATS Equivalents  
 The only way current JATS has to record this is `@publication-format/@publication-type`
 	<mixed-citation publication-type=”dataset”   publication-format=”online”>...
 
@@ -98,11 +105,13 @@ If this information should be recorded as an element, a new element would need t
 - `<data-format>spreadsheet</data-format>`
 - `<data-format>data</data-format>`
 
+### JATS modification suggested
 ----
 
 ## 6. Persistent Global Identifier/ Locator (DOI/URL)  
 Possibly a URL, but ideally a persistent ( DOI, PURL, Handle, or ARK) HTTP form of the DOI is preferred by some sources.
 
+### Existing JATS Equivalents  
 #### `<pub-id>` with `@pub-id-type`
 	<pub-id pub-id-type="doi">10.1128/JCM.02410-08</pub-id>
 	<pub-id pub-id-type="doi">10.1099/ijs.0.039248-0</pub-id>
@@ -117,36 +126,44 @@ Note: At the moment, <pub-id> does not take any linking attributes. We might nee
 #### `<uri>`  
 	<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>
 
+### JATS modification suggested
 ----
 
 ## 7. Publisher/Distributor/ Repository/ Data Center /Archive
 
 The organization distributing and curating the data (ideally over the long term) such as a Data Center or Archive
 
+### Existing JATS Equivalents  
 #### <publisher-name>
 	<publisher-name>Public Library of Science</publisher-name>
 
+### JATS modification suggested
 ----
 
 ## 8. Location of publisher/distributor  
 Such as city, state, country
+### Existing JATS Equivalents  
 #### `<publisher-loc>`
 	<publisher-loc>San Francisco, USA</publisher-loc>
 
+### JATS modification suggested
 ----
 
 ## 9. Access Date(s) and Time
 Exactly when the online data was accessed.
 
+### Existing JATS Equivalents  
 #### `<date-in-citation>`
 	<date-in-citation iso-8601-date=”2014-06-13:10:00”>Accessed on:
 	<year>2014</year, <month>June</month>,<day>13</day> at 10:00am</date-in-citation>
 
+### JATS modification suggested
 ----
 
 ## 10. Additional URI/Location /bridge service
 Typically used for a URL in addition to the regular DOI
 
+### Existing JATS Equivalents  
 #### `<ext-link>` with `@ext-link-type`
 	<ext-link ext-link-type="uri" xlink:href="http://r-forge.r-project.org/projects/splits">
 	http://r-forge.r-project.org/projects/splits</ext-link>
@@ -154,10 +171,14 @@ Typically used for a URL in addition to the regular DOI
 #### `<uri>`
 	`<uri xlink:href="http://www.biomedcentral.com/1471-2180/13/198">http://www.biomedcentral.com/1471-2180/13/198</uri>`
 
+### JATS modification suggested
 ----
 
 ## 11. Secondary distributor/ other Institutional Role
 Typically used for a URL in addition to the regular DOI
 
+### Existing JATS Equivalents  
 #### institution with `@content-type` `institution-wrap` (*would need to be added*) 
 	*do we need an institution example here?*
+
+### JATS modification suggested
