@@ -51,7 +51,7 @@ Data creators. People or organizations responsible for developing (intellectual 
 	Harvard University</institution>
 	</institution-wrap>
 
-### JATS modification required
+### JATS modification suggested
 
 ----
 
