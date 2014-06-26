@@ -2,7 +2,9 @@
 @@TOC@@
 
 ## Introduction.
-
+This document provides a guideline on how to use the [Journal Article Tag Suite](http://jats.nlm.nih.gov/about.html) to tag data citations. These are an
+are an evolving set of guidelines that have been developed sa part of the NISO-JATS Data Citation Implementation Workshop held at the British Library on
+the 19<sup>th</sup> of June 2014. 
 
 
 ## Layout of this document.
