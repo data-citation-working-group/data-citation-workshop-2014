@@ -27,7 +27,17 @@ By identifying the most commonly used fields across all of these recommendations
 a significant number of use cases for data citation, however we do not anticipate that these guidelines will cover all use cases (though we would be delighted if that
 	turns out to be the case). The working document that summarises that work can be found at .... The fields that were identified are:
 
-
+1. Author/Rightsholder/ Creator/Primary Responsibility  
+2. Publication/Release Date /Year  
+3. Title/Name of the Dataset  
+4. Version/Edition  
+5. Resource Type  
+6. Persistent Global Identifier/ Locator (DOI/URL)  
+7. Publisher/Distributor/ Repository/ Data Center /Archive  
+8. Location of publisher/distributor  
+9. Access Date(s) and Time  
+10. Additional URI/Location /bridge service  
+11. Secondary distributor/ other Institutional Role  
 
 ---
 
