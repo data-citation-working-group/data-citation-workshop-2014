@@ -23,7 +23,7 @@ In the following pages:
 
 ----
 
-### Author/Rightsholder/ Creator/Primary Responsibility
+## Author/Rightsholder/ Creator/Primary Responsibility
 Data creators. People or organizations responsible for developing (intellectual work) the dataset (_type subproperty_) _Primary Responsibility_
 
 ### Potential JATS Equivalents  
@@ -53,7 +53,7 @@ Data creators. People or organizations responsible for developing (intellectual 
 
 ----
 
-### Publication/Release Date /Year  
+## Publication/Release Date /Year  
 When this version of the dataset was made available for citation. May be only a year
 
 #### date  
@@ -66,7 +66,7 @@ When this version of the dataset was made available for citation. May be only a 
 
 ----
 
-### Title/Name of the Dataset
+## Title/Name of the Dataset
 Formal title  of the dataset (may include applicable dates) (optional type subproperty). Some sources place this inside the name.
 
 #### source
@@ -74,7 +74,7 @@ Formal title  of the dataset (may include applicable dates) (optional type subpr
 
 ----
 
-### Version/Edition
+## Version/Edition
 The precise version number of the data used.
 
 #### edition  
@@ -85,7 +85,7 @@ The precise version number of the data used.
 
 ----
 
-### Resource Type  
+## Resource Type  
 Material designator; medium; (general type description subpropery).  
 The only way current JATS has to record this is `@publication-format/@publication-type`
 	<mixed-citation publication-type=”dataset”   publication-format=”online”>...
@@ -98,7 +98,7 @@ If this information should be recorded as an element, a new element would need t
 
 ----
 
-### Persistent Global Identifier/ Locator (DOI/URL)  
+## Persistent Global Identifier/ Locator (DOI/URL)  
 Possibly a URL, but ideally a persistent ( DOI, PURL, Handle, or ARK) HTTP form of the DOI is preferred by some sources.
 
 #### `<pub-id>` with `@pub-id-type`
@@ -117,7 +117,7 @@ Note: At the moment, <pub-id> does not take any linking attributes. We might nee
 
 ----
 
-### Publisher/Distributor/ Repository/ Data Center /Archive
+## Publisher/Distributor/ Repository/ Data Center /Archive
 
 The organization distributing and curating the data (ideally over the long term) such as a Data Center or Archive
 
@@ -126,14 +126,14 @@ The organization distributing and curating the data (ideally over the long term)
 
 ----
 
-### Location of publisher/distributor  
+## Location of publisher/distributor  
 Such as city, state, country
 #### `<publisher-loc>`
 	<publisher-loc>San Francisco, USA</publisher-loc>
 
 ----
 
-### Access Date(s) and Time
+## Access Date(s) and Time
 Exactly when the online data was accessed.
 
 #### `<date-in-citation>`
@@ -142,7 +142,7 @@ Exactly when the online data was accessed.
 
 ----
 
-### Additional URI/Location /bridge service
+## Additional URI/Location /bridge service
 Typically used for a URL in addition to the regular DOI
 
 #### `<ext-link>` with `@ext-link-type`
@@ -154,7 +154,7 @@ Typically used for a URL in addition to the regular DOI
 
 ----
 
-### Secondary distributor/ other Institutional Role
+## Secondary distributor/ other Institutional Role
 Typically used for a URL in addition to the regular DOI
 
 #### institution with `@content-type` `institution-wrap` (*would need to be added*) 
