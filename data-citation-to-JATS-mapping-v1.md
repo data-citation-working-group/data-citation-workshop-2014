@@ -73,7 +73,7 @@ Data creators. People or organizations responsible for developing (intellectual 
 
 ----
 
-## 2. Publication/Release Date /Year  
+## 2. Publication/Release Date /Year  
 When this version of the dataset was made available for citation. May be only a year
 
 ### Existing JATS Equivalents  
@@ -111,7 +111,7 @@ The precise version number of the data used.
 ### JATS modification suggested
 ----
 
-## 5. Resource Type  
+## 5. Resource Type  
 Material designator; medium; (general type description subpropery).  
 ### Existing JATS Equivalents  
 The only way current JATS has to record this is `@publication-format/@publication-type`
@@ -147,7 +147,7 @@ Note: At the moment, <pub-id> does not take any linking attributes. We might nee
 ### JATS modification suggested
 ----
 
-## 7. Publisher/Distributor/ Repository/ Data Center /Archive
+## 7. Publisher/Distributor/ Repository/ Data Center /Archive
 
 The organization distributing and curating the data (ideally over the long term) such as a Data Center or Archive
 
@@ -167,7 +167,7 @@ Such as city, state, country
 ### JATS modification suggested
 ----
 
-## 9. Access Date(s) and Time
+## 9. Access Date(s) and Time
 Exactly when the online data was accessed.
 
 ### Existing JATS Equivalents  
@@ -178,7 +178,7 @@ Exactly when the online data was accessed.
 ### JATS modification suggested
 ----
 
-## 10. Additional URI/Location /bridge service
+## 10. Additional URI/Location /bridge service
 Typically used for a URL in addition to the regular DOI
 
 ### Existing JATS Equivalents  
