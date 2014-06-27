@@ -1,15 +1,9 @@
-## ext-link example
 
-This:
-
-Fis-DNA crystal structure (PDB ID: 3IV5) highlighting the sole cysteine at the crosslinking target residue 21 (green spheres) in the protruding &#x3b2;-hairpin arms where surrounding residues that contact Hin are shown as red sticks. 
-
-Becomes:
 
 Fis-DNA crystal structure (PDB ID: <ext-link xlink:href="http://www.rcsb.org/pdb/explore.do?structureId=3iv5" specific-use="data" ext-link-type="pdb">3IV5</ext-link>) highlighting the sole cysteine at the crosslinking target residue 21 (green spheres) in the 
 protruding &#x3b2;-hairpin arms where surrounding residues that contact Hin are shown as red sticks. 
 
-Becomes: 
+
 
  from Hin (PDB ID: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" specific-use="data" xlink:href="http://www.rcsb.org/pdb/explore/explore.do?structureId=1ijw">1IJW</ext-link>); the lengths of helix-1 in resolvases vary. Solvent-exposed residues Gln151, Arg154, and Leu155, which are proposed to directly or indirectly interact with Fis, are uniquely conserved among DNA invertases. Sin residues Val163 and Ile164 (underlined) mediate synapsis of regulatory subunits during formation of the Sin synaptic complex 
 
