@@ -1,0 +1,128 @@
+<sec sec-type="datasets" hwp:id="sec-28">
+<title hwp:id="title-47">Major dataset</title>
+<p hwp:id="p-83">The following dataset was generated:</p>
+<p hwp:id="p-84">
+<related-object l:ref="Dataset ID and/or url" hwp:source-id="" l:rel="related" content-type="generated-dataset" id="dataro1" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset" source-id="" source-id-type="hwp" link-type="related" hwp:id="related-object-1" hwp:rev-id="xref-related-object-1-1 xref-related-object-1-2">
+<name name-style="western" hwp:sortable="Blitzblau HG">
+<surname>Blitzblau</surname>
+<given-names>HG</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Hochwagen A">
+<surname>Hochwagen</surname>
+<given-names>A</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<year>2013</year>
+<x xml:space="preserve">,</x>
+<source hwp:id="source-1">
+Data from: DNA replication and DSB factor binding in the meiotic S-phase checkpoint in budding yeast
+</source>
+<x xml:space="preserve">,</x>
+<object-id pub-id-type="art-access-id">GSE46841</object-id>
+<x xml:space="preserve">;</x>
+<ext-link l:rel="related" l:ref-type="uri" l:ref="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46841" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46841" xlink:type="simple" hwp:id="ext-link-21">
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46841
+</ext-link>
+<x xml:space="preserve">,</x>
+<comment>
+Publicly available at the Gene Expression Omnibus (
+<ext-link l:rel="related" l:ref-type="uri" l:ref="http://www.ncbi.nlm.nih.gov/geo/" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/" xlink:type="simple" hwp:id="ext-link-22">http://www.ncbi.nlm.nih.gov/geo/</ext-link>
+).
+</comment>
+</related-object>
+</p>
+<p hwp:id="p-85">
+The following previously published datasets were used:
+</p>
+<p hwp:id="p-86">
+<related-object l:ref="Dataset ID and/or url" hwp:source-id="" l:rel="related" content-type="generated-dataset" id="dataro2" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset" source-id="" source-id-type="hwp" link-type="related" hwp:id="related-object-2">
+<name name-style="western" hwp:sortable="Blitzblau HG">
+<surname>Blitzblau</surname>
+<given-names>HG</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Chan CS">
+<surname>Chan</surname>
+<given-names>CS</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Hochwagen A">
+<surname>Hochwagen</surname>
+<given-names>A</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Bell SP">
+<surname>Bell</surname>
+<given-names>SP</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<year>2012</year>
+<x xml:space="preserve">,</x>
+<source hwp:id="source-2">Data from: Pre-meiotic Mcm2-7 ChIP</source>
+<x xml:space="preserve">,</x>
+<object-id pub-id-type="art-access-id">GSE35667</object-id>
+<x xml:space="preserve">;</x>
+<ext-link l:rel="related" l:ref-type="uri" l:ref="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35667" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35667" xlink:type="simple" hwp:id="ext-link-23">
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE35667
+</ext-link>
+<x xml:space="preserve">,</x>
+<comment>
+Publicly available at the Gene Expression Omnibus (
+<ext-link l:rel="related" l:ref-type="uri" l:ref="http://www.ncbi.nlm.nih.gov/geo/" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/" xlink:type="simple" hwp:id="ext-link-24">http://www.ncbi.nlm.nih.gov/geo/</ext-link>
+).
+</comment>
+</related-object>
+</p>
+<p hwp:id="p-87">
+<related-object l:ref="Dataset ID and/or url" hwp:source-id="" l:rel="related" content-type="generated-dataset" id="dataro3" document-id="Dataset ID and/or url" document-type="data" document-id-type="dataset" source-id="" source-id-type="hwp" link-type="related" hwp:id="related-object-3">
+<name name-style="western" hwp:sortable="Vader G">
+<surname>Vader</surname>
+<given-names>G</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Blitzblau HG">
+<surname>Blitzblau</surname>
+<given-names>HG</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Tame MA">
+<surname>Tame</surname>
+<given-names>MA</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Falk JE">
+<surname>Falk</surname>
+<given-names>JE</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Curtin L">
+<surname>Curtin</surname>
+<given-names>L</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<name name-style="western" hwp:sortable="Hochwagen A">
+<surname>Hochwagen</surname>
+<given-names>A</given-names>
+</name>
+<x xml:space="preserve">,</x>
+<year>2011</year>
+<x xml:space="preserve">,</x>
+<source hwp:id="source-3">
+Data from: ChIP-chip of DSB factors in wild type and pch2 strains
+</source>
+<x xml:space="preserve">,</x>
+<object-id pub-id-type="art-access-id">GSE30072</object-id>
+<x xml:space="preserve">;</x>
+<ext-link l:rel="related" l:ref-type="uri" l:ref="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30072" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30072" xlink:type="simple" hwp:id="ext-link-25">
+http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30072
+</ext-link>
+<x xml:space="preserve">,</x>
+<comment>
+Publicly available at the Gene Expression Omnibus (
+<ext-link l:rel="related" l:ref-type="uri" l:ref="http://www.ncbi.nlm.nih.gov/geo/" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/" xlink:type="simple" hwp:id="ext-link-26">http://www.ncbi.nlm.nih.gov/geo/</ext-link>
+).
+</comment>
+</related-object>
+</p>
+</sec>
