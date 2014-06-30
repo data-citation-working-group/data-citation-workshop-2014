@@ -1,0 +1,41 @@
+,,,,Critical Sources,,,,,,,,,,,,      Publishers                                                                                   Academic and Goverment            ,,,,,,Academics and Government,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Hosting/Services/etc.,,,
+"m=mandatory
+y=yes
+rec = recommended
+de = deprecated
+full = full names (not                         initials)
+B = both","Non-italicized definitions from Duerr 
+    (ESIP Data Cite Guidelines 2012) 
+Properties from DataCite Schema",Number of orgs listing this field as mandatory,Number of orgs listing using this field (as mandatory  yes  full or both) ,ESIP(Duerr 2012) ,DataCite Schema(2013),Ball and Duke (DCC 2012),Force11,Altman/King (2007,Nature,ANDS,Shotton(Best Prac  2011),OECD (Green 2009),Dryad,IASSIST,Mooney and Newtn(JLSC 2012),APA (web),APA (MSU),AGU,OSA,PLOS,Sci Amer (2013),Boston U,Californ. Digital Lib,DAAC Oak Ridge,wiki.esipfed.org,ESRC  Swindon,George  Mason,wiki.esipfed.org,Florida State U,German Research Centre for Geosciences (GFZ),Harvard,IASIST,ICPSR (U Michigan),Lafayette,LSE,Pangea,Pensoft,Michigan State U,MIT,NCSU (not quite),NASA (DAAC),NASA (SEDAC),NOAA,Oregon State,Pepperdine U,Purdue,Santa Cruz,UCSC,UCI,U of Cambridge,U Michigan,U Oregon,Vanderbilt,DataOne,DataFirst,Dataverse (service),SageCite
+verified with org,,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Author/Rightsholder/ Creator/Primary Responsibility,Data creators. People or organizations responsible for (intellectual work) developing the dataset (type subproperty) Primary Responsibility,8,54,m,m full,y,y,m full,m full,m,y,y,y,y,y,y,y,y,y,full,y,full,y,y,y,m,m,y,full,full,full,m,full,y,full,full,y,full,full,full,y,y,y,y,y,y,y,m,y,y,y,y,y,y,full,full,y
+Publication/Release Date/Year,When this version of the dataset was made available for citation. May be only a year. Some sources place this inside the name.,8,52,m,m,y,y,m,m full,m,y,y,y,y,y,y,y,y,y,y,,y,y,y,y,m,m,y,y,y ,y,m,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,m,y,y,y,,y,y,y,y,y
+Title/Name of the Dataset ,Formal title  of the dataset (may include applicable dates)(opt. type subproperty),8,51,m,m,y,y,m,,m,y,y,y,y,y,y,y,y,y,y,,y,y,y,y,m,m,y,y,,y,m,Y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,m,y,y,y,y,y,y,y,y,y
+Version/Edition,The precise version number of the data used,1,25,m,y,B,y,y,,y,,,,y,,,y,,,,,y,y,,y,y,y,,,,y,,,,y,,,y,,,,y,,y,y,y,,y,,y,y,,y,,y,,
+Resource Type,(material designator; medium; general type description subpropery),0,22,,rec,y,,de,,,,y,,,y,y,y,,,,y,,,Y,,y,y,,,,,,y,y,,,,,y,y,y,y,,,,,,y,,,y,,,y,y,,y
+Persistent Global Identifier/ Locator (DOI/URL),Possibly a URL  but ideally a persistent (DOI  PURL  Handle  or ARK) HTTP form preferred,8,52,m,m,B,y,m,m,m,y(2),2 forms,y,or,B,y,y,,y,y,y,y,y,B,U,m,m,y,y,y,B,m,Y,y,y,B,y,y,y,y,B,U/ FTP,,y,B ,y,y,m,U,B,y,B,y,B,y,y,y
+Publisher/Distributor/ Repository,The organizatition distributing and curating the data (ideally over the long term) such as a Data Center or Archive,7,45,m,m,y,y,,m,m,rec,,y,y,y,,y,y,y,,y,y,y,y,y,m,m,y,,,y,m,Y,,y,y,y,,y,y,y,y,y,y,y,y,y,m,y,y,y,y,,y,y,y,y
+Location of above,(such as city  state  country),0,15,y,,,,,,y,,,,,,,y,y,y,,,y,,y,Y,,,,,,,,Y,,y,,,,,y,y,y,y,,,,,,,,,,,y,,,
+Access Date(s) and Time,Exactly when the online data was accessed,1,20,m,,,,de,,,,y,,Y,,,,y,,,,,y,y,y,,,y,y,,y,,,y,,,,,y,,Y,y,,y,,y,,y,,,,y,,y,,,
+Secondary distributor/ other Institutional Role,Secondary distrib./ Associate Archive/ other Institutional Role  e.g.  Funding Source,0,5,y,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,y,,,,,,y,,,,,,,,,,,,,y,,
+Access Numer/Alternate Identifier,(type subpropery),0,9,,y,,,,m,y,,,,,,,,y,,,,,y,,,,,,,,,,ICPSR,,,y,,,,,,,y,,,,,,,,y,,,,,,
+Related Identifier,(type and relatiobship type subproperies),0,1,,rec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Update Date/Information,Last update date or update frequency (type subproperty),0,2,y,,,,,,,,,,,,,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Year data produced,Not published but produced,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,y,,,,,,,,,,,,,,,,,
+Verifier: UNF (Universal Numeric Fingerprint)or MD5 checksum,Short fixed-length string that summarizes uniquely the partiular dataset content,0,4,,,y,,,,,de,,,,,,,,,,,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,y,
+Additional URI/Location /bridge service/Secondary distributor/ other Institutional Role,Typically used for a URL in additon to the regular DOI,1,3,,,y,,m,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,y,
+Software used for analysis,,0,4,,,,,y,,,,,,,,,,,,,,,,,,,,,y,,y,,,,,,,,,,,,,,,,,,,,,y,,,,,
+Data within a larger work,,0,3,y,,,,,,,,,,,,,,,,,, ,,,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Subset used/Feature name,For example  temporal subset  sparial subset  subcollection  type of representation of the data (DCC ISO feature name and URI),0,5,y,,y,,,,,,,,,,,,,,,, ,y,,,,,,,name,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dataset subtitle,,0,1,,,,,,,,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+parent dataset collection title,,0,1,,,,,,,,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Editor/Compiler/ other roles,For a collection which is individually authored (type and name-identifier subproperties),0,5,y,,,,y,,,,,,,,,,,,,, ,,,Y,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Contributor,,0,3,,,,,,,,,,,,,,,,,,, ,,,,,y,,,,,,,,,,,,,,,,y,,,,,,,,,,,,,,
+Language,(Type subproperty),0,1,,rec,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Size,,0,1,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rights,,0,3,,y,,,,,,,,,,,,,,,,,,,y,,,,,,,,,,,,,,,,,,y,,,,,,,,,,,,,,,
+Description/Subject,,0,1,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Geolocation,(Type subproperty),0,1,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Statement of Responsibility,(Point and Box),0,1,,y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+unpublished flag,Is this published or unpublihsed data,0,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,y,,,,,,,,,,,,,,,
+context,Contextual information such as a series title or databse name for the collection being described,0,3,,,,,,,y,,,,,,,,,,,,,,,,,y,,,,,,,,,,,,,,,y,,,,,,,,,,,,,,,
